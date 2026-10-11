@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: dark; }
+body { @apply bg-ink text-slate-200 font-sans antialiased; font-variant-numeric: tabular-nums; }
+input, select { @apply rounded-lg border border-line bg-ink px-3 py-2 text-sm text-slate-100 outline-none focus:border-blue; }
+button:focus-visible, a:focus-visible { @apply outline outline-2 outline-blue; }
